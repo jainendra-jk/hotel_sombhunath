@@ -1,0 +1,5 @@
+# Ignore ad-hoc uploads; keep defaults and folder structure in git
+*
+!.gitkeep
+!.gitignore
+!heroimage.jpeg

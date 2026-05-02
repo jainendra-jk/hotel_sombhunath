@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Local env & secrets
+.env
+.env.*
+!.env.example
+
+# Logs & debug
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor & OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Vercel CLI local link
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+
+# Vite cache
+.vite/
+
+# Local-only (e.g. temp commit message file)
+commit-msg.txt
